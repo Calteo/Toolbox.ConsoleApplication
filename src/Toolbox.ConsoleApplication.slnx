@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Toolbox.ConsoleApplication.Demo/Toolbox.ConsoleApplication.Demo.csproj" Id="a87d2563-a2ec-4eff-84c1-2637ef2d8061" />
+  <Project Path="Toolbox.ConsoleApplication/Toolbox.ConsoleApplication.csproj" />
+</Solution>

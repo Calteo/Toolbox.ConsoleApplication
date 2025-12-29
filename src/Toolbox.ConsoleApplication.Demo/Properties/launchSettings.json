@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Help": {
+      "commandName": "Project",
+      "commandLineArgs": "-?"
+    },
+    "Run": {
+      "commandName": "Project"
+    }
+  }
+}
