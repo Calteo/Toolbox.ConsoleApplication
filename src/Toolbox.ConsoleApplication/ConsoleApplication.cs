@@ -18,8 +18,6 @@ namespace Toolbox.ConsoleApplication
         {
 			try
 			{
-				Console.WriteLine(ConsoleColor.Green, "ConsoleApplication is running...");
-
 				var parser = new Parser([.. OptionsHandlers.Keys]);
 				var result = parser.Parse(Arguments);
 
@@ -28,8 +26,6 @@ namespace Toolbox.ConsoleApplication
 					.OnHelp(OnArgumentHelp)
 					.On(OnRunHandler)
 					.Return;
-
-				Console.WriteLine(ConsoleColor.Green, $"ConsoleApplication is done. (rc={rc})");
 
 				return rc;
 			}
